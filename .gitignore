@@ -1,0 +1,40 @@
+# ignore all IDE files
+.idea/
+.code/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# ignore all build files
+build/
+dist/
+
+# ignore all .env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# other files
+*.map
+*.log
+*.pid
+.cache/
+.DS_Store
+.history/
+node_modules/
+logs/
+coverage/
+yarn.lock
+package-lock.json
